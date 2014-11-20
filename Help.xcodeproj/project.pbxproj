@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC7548981A1E8C2100106281 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = EC7548971A1E8C2100106281 /* Notes */; };
 		ECCEC37C1A1DCA480079F170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCEC37B1A1DCA480079F170 /* main.m */; };
 		ECCEC37F1A1DCA480079F170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCEC37E1A1DCA480079F170 /* AppDelegate.m */; };
 		ECCEC3821A1DCA480079F170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCEC3811A1DCA480079F170 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC7548971A1E8C2100106281 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Notes; path = Help/Notes; sourceTree = "<group>"; };
 		ECCEC3761A1DCA480079F170 /* Help.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Help.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCEC37A1A1DCA480079F170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECCEC37B1A1DCA480079F170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		ECCEC36D1A1DCA480079F170 = {
 			isa = PBXGroup;
 			children = (
+				EC7548971A1E8C2100106281 /* Notes */,
 				ECCEC3781A1DCA480079F170 /* Help */,
 				ECCEC3921A1DCA490079F170 /* HelpTests */,
 				ECCEC3771A1DCA480079F170 /* Products */,
@@ -168,6 +171,7 @@
 				TargetAttributes = {
 					ECCEC3751A1DCA480079F170 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = TAKD93V9H5;
 					};
 					ECCEC38E1A1DCA490079F170 = {
 						CreatedOnToolsVersion = 6.1;
@@ -201,6 +205,7 @@
 			files = (
 				ECCEC3851A1DCA480079F170 /* Main.storyboard in Resources */,
 				ECCEC38A1A1DCA480079F170 /* LaunchScreen.xib in Resources */,
+				EC7548981A1E8C2100106281 /* Notes in Resources */,
 				ECCEC3871A1DCA480079F170 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,9 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Help/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Help/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -414,6 +425,7 @@
 				ECCEC39B1A1DCA490079F170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECCEC39C1A1DCA490079F170 /* Build configuration list for PBXNativeTarget "HelpTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +434,7 @@
 				ECCEC39E1A1DCA490079F170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

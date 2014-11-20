@@ -1,0 +1,10 @@
+Aim:
+Help individuals who has ALS/MND or people who has similar challenges to communicate.
+
+Method:
+Attempt to translate facial expresions(blinking) to control device.
+Settings > General > Accessibilty > Switch Control.
+
+Sort Out:
+Left Eye and Right Eye swopped around.
+Fix BSXPCMessage received error for message: Connection interrupted.
